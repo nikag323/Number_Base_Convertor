@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="17">
+      <module name="Number_Base_Converter.Number_Base_Converter-task.main" target="11" />
+      <module name="Number_Base_Converter.Topics-BigInteger-Division.main" target="11" />
+      <module name="Number_Base_Converter.Topics-BigInteger-Exbibytes.main" target="11" />
+      <module name="Number_Base_Converter.Topics-BigInteger-Max.main" target="11" />
+      <module name="Number_Base_Converter.Topics-BigInteger-Percentage.main" target="11" />
+      <module name="Number_Base_Converter.Topics-BigInteger-Simple_expression.main" target="11" />
+      <module name="Number_Base_Converter.Topics-BigInteger-Statements.main" target="11" />
+      <module name="Number_Base_Converter.Topics-BigInteger-The_one.main" target="11" />
+      <module name="Number_Base_Converter.Topics-BigInteger-Theory.main" target="11" />
+      <module name="Number_Base_Converter.util.main" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
