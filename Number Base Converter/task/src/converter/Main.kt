@@ -1,50 +1,51 @@
 package converter
 
+import java.math.BigInteger
+
+const val BASE_DEC = 10
 const val baseSym = "0123456789ABCDEF"
 
 fun main() {
     println("Hello, world!")
+    var resultDec = BigInteger.ZERO
+    var resultStr = ""
     while (true) {
-        println("Do you want to convert /from decimal or /to decimal? (To quit type /exit)")
-        var command = readln()
-        when (command) {
-            "/from" -> {
-                fromDec()
-            }
-            "/to" -> {
-                toDec()
-            }
-            "/exit" -> {
-                return
-            }
+        println("Enter two numbers in format: {source base} {target base} (To quit type /exit)")
+        val answer1 = readln()
+        if (answer1 == "/exit") return
+        val (sb, tb) = answer1.split(" ")
+        val sourceBase = sb.toInt()
+        val targetBase = tb.toInt()
+        while (true) {
+            println("Enter number in base $sourceBase to convert to base $targetBase (To go back type /back)")
+            val answer2 = readln()
+            if (answer2 == "/back") break
+            resultDec = AnyBaseToDec(answer2, sourceBase.toInt())
+            resultStr = DecToAnyBase(resultDec, targetBase)
         }
     }
 }
 
-fun toDec() {
-    print("Enter source number: ")
-    var number = readln().uppercase()
-    print("Enter source base: ")
-    val base = readln().toInt()
-    var result = 0
+fun AnyBaseToDec(number: String, base: Int): BigInteger {
+    var result = BigInteger.ZERO
     for (sym in number) {
         val idx = baseSym.indexOf(sym)
-        result = base * result + idx
+        result = base.toBigInteger() * result + idx.toBigInteger()
     }
-    println("Conversion to decimal result: $result")
+    return result
 }
 
 
- fun fromDec() {
+fun DecToAnyBase(number: BigInteger, base: Int): String {
     print("Enter number in decimal system: ")
     var number = readln().toInt()
     print("Enter target base: ")
     val base = readln().toInt()
     var result = ""
-    do{
+    do {
         result += baseSym[number % base]
         number /= base
-    }while (number > 0)
+    } while (number > 0)
     result = result.reversed()
-    println("Conversion result: $result")
+    return result
 }
