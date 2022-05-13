@@ -2,13 +2,50 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="17">
-      <module name="Number_Base_Converter.Number_Base_Converter-task-build-classes-java.main" target="11" />
-      <module name="Number_Base_Converter.Number_Base_Converter-task-build-classes-kotlin.main" target="11" />
-      <module name="Number_Base_Converter.Number_Base_Converter-task-build-generated-sources-annotationProcessor-java.main" target="11" />
-      <module name="Number_Base_Converter.Number_Base_Converter-task-build-generated-sources-headers-java.main" target="11" />
-      <module name="Number_Base_Converter.Number_Base_Converter-task-build-reports-tests.main" target="11" />
-      <module name="Number_Base_Converter.Number_Base_Converter-task-build-test-results.main" target="11" />
-      <module name="Number_Base_Converter.Number_Base_Converter-task-build-tmp.main" target="11" />
+      <module name="nmc.Number_Base_Converter-task-build-classes-java.main" target="11" />
+      <module name="nmc.Number_Base_Converter-task-build-classes-kotlin.main" target="11" />
+      <module name="nmc.Number_Base_Converter-task-build-generated-sources-annotationProcessor-java.main" target="11" />
+      <module name="nmc.Number_Base_Converter-task-build-generated-sources-headers-java.main" target="11" />
+      <module name="nmc.Number_Base_Converter-task-build-reports-tests.main" target="11" />
+      <module name="nmc.Number_Base_Converter-task-build-test-results.main" target="11" />
+      <module name="nmc.Number_Base_Converter-task-build-tmp.main" target="11" />
+      <module name="nmc.Number_Base_Converter-task-out.main" target="11" />
+      <module name="nmc.Number_Base_Converter-task.main" target="11" />
+      <module name="nmc.Topics-BigInteger-Division.main" target="11" />
+      <module name="nmc.Topics-BigInteger-Exbibytes.main" target="11" />
+      <module name="nmc.Topics-BigInteger-Max.main" target="11" />
+      <module name="nmc.Topics-BigInteger-Percentage.main" target="11" />
+      <module name="nmc.Topics-BigInteger-Simple_expression.main" target="11" />
+      <module name="nmc.Topics-BigInteger-Statements.main" target="11" />
+      <module name="nmc.Topics-BigInteger-The_one.main" target="11" />
+      <module name="nmc.Topics-BigInteger-Theory.main" target="11" />
+      <module name="nmc.Topics-Functional_decomposition-Calculator_with_four_functions.main" target="11" />
+      <module name="nmc.Topics-Functional_decomposition-Create_a_full_name.main" target="11" />
+      <module name="nmc.Topics-Functional_decomposition-Decompose_a_math_function.main" target="11" />
+      <module name="nmc.Topics-Functional_decomposition-How_to_improve_a_compound_program.main" target="11" />
+      <module name="nmc.Topics-Functional_decomposition-Items_of_functional_decomposition.main" target="11" />
+      <module name="nmc.Topics-Functional_decomposition-Roots_of_quadratic_equation.main" target="11" />
+      <module name="nmc.Topics-Functional_decomposition-Theory.main" target="11" />
+      <module name="nmc.Topics-Functional_decomposition-Why_decompose_a_program.main" target="11" />
+      <module name="nmc.util.main" target="11" />
+      <module name="Number Base Converter.Number_Base_Converter.Number_Base_Converter-task-build-classes-java.main" target="11" />
+      <module name="Number Base Converter.Number_Base_Converter.Number_Base_Converter-task-build-classes-kotlin.main" target="11" />
+      <module name="Number Base Converter.Number_Base_Converter.Number_Base_Converter-task-build-generated-sources-annotationProcessor-java.main" target="11" />
+      <module name="Number Base Converter.Number_Base_Converter.Number_Base_Converter-task-build-generated-sources-headers-java.main" target="11" />
+      <module name="Number Base Converter.Number_Base_Converter.Number_Base_Converter-task-build-reports-tests.main" target="11" />
+      <module name="Number Base Converter.Number_Base_Converter.Number_Base_Converter-task-build-test-results.main" target="11" />
+      <module name="Number Base Converter.Number_Base_Converter.Number_Base_Converter-task-build-tmp.main" target="11" />
+      <module name="Number Base Converter.Number_Base_Converter.Number_Base_Converter-task.main" target="11" />
+      <module name="Number Base Converter.Number_Base_Converter.Topics-BigInteger-Division.main" target="11" />
+      <module name="Number Base Converter.Number_Base_Converter.Topics-BigInteger-Exbibytes.main" target="11" />
+      <module name="Number Base Converter.Number_Base_Converter.Topics-BigInteger-Max.main" target="11" />
+      <module name="Number Base Converter.Number_Base_Converter.Topics-BigInteger-Percentage.main" target="11" />
+      <module name="Number Base Converter.Number_Base_Converter.Topics-BigInteger-Simple_expression.main" target="11" />
+      <module name="Number Base Converter.Number_Base_Converter.Topics-BigInteger-Statements.main" target="11" />
+      <module name="Number Base Converter.Number_Base_Converter.Topics-BigInteger-The_one.main" target="11" />
+      <module name="Number Base Converter.Number_Base_Converter.Topics-BigInteger-Theory.main" target="11" />
+      <module name="Number Base Converter.Number_Base_Converter.util.main" target="11" />
+      <module name="Number_Base_Converter.Number_Base_Converter-task-out.main" target="11" />
       <module name="Number_Base_Converter.Number_Base_Converter-task.main" target="11" />
       <module name="Number_Base_Converter.Topics-BigInteger-Division.main" target="11" />
       <module name="Number_Base_Converter.Topics-BigInteger-Exbibytes.main" target="11" />
@@ -18,6 +55,14 @@
       <module name="Number_Base_Converter.Topics-BigInteger-Statements.main" target="11" />
       <module name="Number_Base_Converter.Topics-BigInteger-The_one.main" target="11" />
       <module name="Number_Base_Converter.Topics-BigInteger-Theory.main" target="11" />
+      <module name="Number_Base_Converter.Topics-Functional_decomposition-Calculator_with_four_functions.main" target="11" />
+      <module name="Number_Base_Converter.Topics-Functional_decomposition-Create_a_full_name.main" target="11" />
+      <module name="Number_Base_Converter.Topics-Functional_decomposition-Decompose_a_math_function.main" target="11" />
+      <module name="Number_Base_Converter.Topics-Functional_decomposition-How_to_improve_a_compound_program.main" target="11" />
+      <module name="Number_Base_Converter.Topics-Functional_decomposition-Items_of_functional_decomposition.main" target="11" />
+      <module name="Number_Base_Converter.Topics-Functional_decomposition-Roots_of_quadratic_equation.main" target="11" />
+      <module name="Number_Base_Converter.Topics-Functional_decomposition-Theory.main" target="11" />
+      <module name="Number_Base_Converter.Topics-Functional_decomposition-Why_decompose_a_program.main" target="11" />
       <module name="Number_Base_Converter.util.main" target="11" />
     </bytecodeTargetLevel>
   </component>

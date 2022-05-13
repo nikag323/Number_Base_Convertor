@@ -256,4 +256,7 @@ files:
   learner_created: false
 feedback_link: https://hyperskill.org/learn/step/12345#comment
 status: Solved
-record: 2
+feedback:
+  message: Congratulations!
+  time: Tue, 03 May 2022 02:30:18 UTC
+record: 1

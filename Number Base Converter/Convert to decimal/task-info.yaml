@@ -5,19 +5,20 @@ files:
   text: |-
     package converter
 
-    const val baseSym = "0123456789ABCDEF"
+    const val baseSym = "0123456789ABDEF"
 
     fun main() {
         println("Hello, world!")
         print("Enter number in decimal system: ")
-        var number = readln().toInt()
+        val number = readln().toInt()
         print("Enter target base: ")
         val base = readln().toInt()
         var result = ""
+        var quo = number
         do{
-            result += baseSym[number % base]
-            number /= base
-        }while (number > 0)
+            result += baseSym[quo % base]
+            quo /= base
+        }while (quo > 0)
         result = result.reversed()
         println("Conversion result: $result")
     }
@@ -448,4 +449,7 @@ files:
   learner_created: false
 feedback_link: https://hyperskill.org/learn/step/12346#comment
 status: Solved
-record: 1
+feedback:
+  message: Congratulations!
+  time: Tue, 03 May 2022 06:09:55 UTC
+record: 2
